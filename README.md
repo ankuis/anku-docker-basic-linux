@@ -32,4 +32,11 @@ git push -u origin main
 - Learns Docker basics
 - Learns core Linux commands
 - Understand Git and GitHub workflow
-- Understand DevOps flow: Code → Build → Run → Push
+- Understand DevOps flow: Code → Build → Run → Push- 
+### Docker Commands Used
+
+docker build -t my-basic-linux .
+docker run --rm my-basic-linux
+docker tag my-basic-linux ankuuu70/basic-linux:latest
+docker login
+docker push ankuuu70/basic-linux:latest
